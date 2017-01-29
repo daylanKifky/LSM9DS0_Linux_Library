@@ -1,5 +1,6 @@
-SparkFun LSM9DS0 Linux embedded Library
+LSM9DS0 Linux embedded Library
 ======================
+###variation of the SparkFun LSM9DS0 Arduino Library ported to Linux Embedded systems
 
 [![Breakout Board ISO](https://cdn.sparkfun.com//assets/parts/9/3/1/9/12636-01.jpg)](https://www.sparkfun.com/products/12636)
 
