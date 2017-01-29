@@ -1,7 +1,7 @@
 
 /**
  * @file SFE_LSM9DS0.h
- * This file contains the hardware implementation, i2c communication, and LSM9DS0 specific interface
+ * This file contains the LSM9DS0 specific interface
  *
  * @author Original: by Jim Lindblom @ [SparkFun Electronics](https://github.com/sparkfun/LSM9DS0_Breakout)
  * @date February 14, 2014
@@ -13,7 +13,7 @@
 SFE_LSM9DS0.h
 SFE_LSM9DS0 Library Header File
 
-Porting to Embeded linux enviroment by
+Porting to Embedded linux enviroment by
 Bruno Laurencich @ Chordata OSMS
 Modification date: 28 november 2016
 
@@ -28,7 +28,7 @@ https://github.com/sparkfun/LSM9DS0_Breakout
 This code is Birra-pizzaware. Se un giorno se beccamo mi offri un pezzo di pizza <%).
 
 The code is beerware; if you see Jim (or any other SparkFun employee) at the
-local, and you've found our code helpful, please buy us a round!
+local, and you've found our code helpful, please buy them a round!
 
 Distributed as-is; no warranty is given.
 ******************************************************************************/

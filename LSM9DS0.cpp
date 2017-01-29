@@ -3,7 +3,7 @@
 SFE_LSM9DS0.cpp
 SFE_LSM9DS0 Library Source File
 
-Porting to Embeded linux enviroment by
+Porting to Embedded linux enviroment by
 Bruno Laurencich @ Chordata OSMS
 Modification date: 28 november 2016
 
@@ -18,7 +18,7 @@ https://github.com/sparkfun/LSM9DS0_Breakout
 This code is Birra-pizzaware. Se un giorno se beccamo mi offri un pezzo di pizza.
 
 The code is beerware; if you see Jim (or any other SparkFun employee) at the
-local, and you've found our code helpful, please buy us a round!
+local, and you've found our code helpful, please buy them a round!
 
 Distributed as-is; no warranty is given.
 ******************************************************************************/

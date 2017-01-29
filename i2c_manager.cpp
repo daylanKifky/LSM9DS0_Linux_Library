@@ -1,10 +1,16 @@
+/**
+ * @file i2c_manager.cpp
+ * Handler classes for Linux i2c adapter.
+ * This file contains the hardware implementationfor the i2c communication,
+ *
+ */
+
 #include "i2c_manager.h"
 #include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
 #include <cstdint>
 
-//TODELETE
 #include <iostream>//cout
 #include <errno.h>//error
 #include <stdlib.h>//exit
@@ -33,7 +39,6 @@ i2c_result I2C_Device::init(){
 	if ( ( i2c_file = open(i2c_adapter, O_RDWR) ) < 0)
 		return ADAPTER_NOT_AVAIBLE;
 
-	// std::cout << "INIT" << std::endl;
 	return SUCCESS;
 }
 
@@ -90,6 +95,12 @@ void I2C_io::I2CreadBytes(uint8_t address, uint8_t subAddress, uint8_t * dest, u
 		exit(1);
 	}
 }
+
+
+
+//////////////////////////////////
+/// JUST FOR TESTING THE LIBRARY 
+//////////////////////////////////
 
 #ifdef __TEST_I2C__
 int main(int argc, char const *argv[])

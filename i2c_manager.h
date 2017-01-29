@@ -1,6 +1,7 @@
 /**
  * @file i2c_manager.h
- * Handler classes for Linux i2c adapter
+ * Handler classes for Linux i2c adapter.
+ * This file contains the hardware implementationfor the i2c communication,
  *
  */
 #ifndef __I2C_MANAGER_H_
