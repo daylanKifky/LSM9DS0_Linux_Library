@@ -65,6 +65,7 @@ License Information
 This product is _**open source**_!
 
 The original **code** is beerware; if you see Jim (or any other SparkFun employee) at the local, and you've found our code helpful, please buy them a round!
+
 The modified **code** is pizza-birraware (a variation of the original one), se un giorno se beccamo mi offri un pezzo di pizza <%).. e un paio di birre.
 
 Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics, and Bruno Laurencich and release anything derivative under the same license.
